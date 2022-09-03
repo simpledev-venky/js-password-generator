@@ -1,0 +1,72 @@
+#charlen {
+    width: 2rem;
+    font-size: large;
+}
+
+#passdisplay {
+    background-color: rgb(230, 209, 94);
+    font-size: large;
+    color: rgb(241, 115, 57);
+    padding: 6px;
+    border-radius: 1rem;
+    width: 70%;
+}
+
+h2 {
+    margin: 0.8rem 0.4rem;
+    display: inline;
+}
+
+input[type="checkbox"] {
+    width: 30px;
+}
+
+main {
+    border: 2px solid green;
+    max-width: 50%;
+    margin: 2rem auto;
+    padding: 1rem;
+    background-image: linear-gradient(to bottom left,
+            yellow,
+            rgb(148, 238, 92));
+    border-radius: 1rem;
+}
+
+.strength {
+    border: 4px solid rgb(169, 206, 93);
+    margin-top: 1rem;
+}
+
+p {
+    font-size: 1.4rem;
+    display: inline;
+}
+
+.strength>h3 {
+    display: inline;
+    margin: 1rem;
+    margin-right: 34%;
+}
+
+.generatepass {
+    width: 100%;
+    padding: 0.4rem;
+    margin-top: 1rem;
+    font-style: italic;
+    font-size: 1.4rem;
+    color: violet;
+}
+
+.title {
+    text-align: center;
+}
+.cpbtn{
+padding: 6px 10px;
+font-style: italic;
+font-size: 1rem;
+border-radius: .6rem;
+color: rgba(33, 29, 225, 0.884);
+}
+button{
+cursor: pointer;
+}

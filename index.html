@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>password generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <input type="text" id="passdisplay" />
+        <button onclick="copyText()" class="cpbtn">copy</button><br />
+        <h2>character length</h2>
+        <input type="number" id="charlen" /><br />
+        <input type="checkbox" name="cb" id="upperCase" />
+        <p>Include upperCase</p>
+        <br />
+        <input type="checkbox" name="cb" id="lowerCase" />
+        <p>Include Lowercase</p>
+        <br />
+        <input type="checkbox" name="cb" id="special" />
+        <p>Include Special Characters</p>
+        <br />
+        <input type="checkbox" name="cb" id="numbers" />
+        <p>Include Numbers</p>
+        <div class="strength">
+            <h3>Strength</h3>
+            <span id="strg"></span>
+        </div>
+        <button class="generatepass" onclick="generatePassword()">Generate</button>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
